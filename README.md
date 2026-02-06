@@ -24,9 +24,11 @@ cp *.md ~/.claude/commands/
 
 ### 2. (Optional) Enable auto-activation
 
-Add to your global Claude memory (`~/.claude/CLAUDE.md`):
+Copy this prompt into Claude:
 
-```markdown
+```
+Add the following to my global Claude memory file (~/.claude/CLAUDE.md):
+
 ## EMV Knowledge Base
 - When answering EMV-related questions (tags, cryptograms, CDA/DDA, AIDs, terminal flows, etc.), proactively use the `/emv-lookup` skill to reference specs at `~/Documents/emv-specs/`
 - Cite specific spec documents and sections when possible
